@@ -1,14 +1,22 @@
 {
-   "ui_font_size": 18,
+   "git_panel": {
+      "dock": "left"
+   },
+   "outline_panel": {
+      "dock": "left"
+   },
+   "collaboration_panel": {
+      "button": false
+   },
+   "theme": "Gruvbox Material",
+   "icon_theme": "Bearded Icons",
    "buffer_font_size": 18,
    "inline_code_actions": false,
-   "icon_theme": "Warm Charmed Icons",
-   "theme": "Gruvbox Material",
    "tab_size": 3,
    "disable_ai": true,
    "terminal": {
-      "font_size": 18,
-      "font_family": "Dank Mono"
+      "button": false,
+      "font_family": "Dank Mono",
    },
    "tab_bar": {
       "show": false,
@@ -20,7 +28,7 @@
       "show_branch_name": false,
       "show_project_items": true,
    },
-   "ui_font_family": "Maple Mono NF CN",
+   "ui_font_family": "Dank Mono",
    "buffer_font_family": "Dank Mono",
    "buffer_line_height": {
       "custom": 1.3,
@@ -44,20 +52,16 @@
    "scrollbar": {
       "show": "never",
    },
-   "indent_guides": {
-      "enabled": false,
-   },
    "multi_cursor_modifier": "cmd_or_ctrl",
    "git": {
       "git_gutter": "hide",
       "inline_blame": {
-         "enabled": false
-      }
+         "enabled": false,
+      },
    },
    "project_panel": {
       "bold_folder_labels": true,
       "button": true,
-      "git_status": true,
       "dock": "right",
       "entry_spacing": "standard",
       "sticky_scroll": false,
@@ -65,7 +69,7 @@
          "show": "never",
       },
       "auto_fold_dirs": false,
-      "hide_root": false,
+      "hide_root": true,
       "default_width": 400,
       "scrollbar": {
          "show": "never",
@@ -73,7 +77,7 @@
       "starts_open": false,
    },
    "file_finder": {
-      "modal_max_width": "large",
+      "modal_max_width": "medium",
    },
    "languages": {
       "CSS": {
@@ -150,20 +154,24 @@
    },
    "theme_overrides": {
       "Gruvbox Material": {
-         "toolbar.background": "#1C1917",
-         "border.variant": "#1C1917",
-         "border": "#222222",
-         "title_bar.background": "#1C1917",
-         "status_bar.background": "#1C1917",
-         "panel.background": "#1C1917",
-         "panel.focused_border": "#28282B",
-         "editor.background": "#1C1917",
-         "editor.gutter.background": "#1C1917",
-         "terminal.ansi.background": "#1C1917",
-         "terminal.background": "#1C1917",
-         "tab.active_background": "#222222",
-         "tab.inactive_background": "#222222",
-         "tab_bar.background": "#1C1917",
+         "background": "#181818",
+         "toolbar.background": "#181818",
+         "border.variant": "#181818",
+         "border": "#181818",
+         "title_bar.background": "#181818",
+         "status_bar.background": "#181818",
+         "search.match_background": "#181818",
+         "panel.background": "#181818",
+         "panel.focused_border": "#181818",
+         "editor.background": "#181818",
+         "editor.gutter.background": "#181818",
+         "terminal.ansi.background": "#181818",
+         "terminal.background": "#181818",
+         "tab.active_background": "#181818",
+         "tab.inactive_background": "#181818",
+         "tab_bar.background": "#181818",
+
+
          "players": [
             {
                "cursor": "#fff",
