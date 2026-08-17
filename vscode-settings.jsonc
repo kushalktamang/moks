@@ -1,0 +1,107 @@
+{
+  // json error on omarchy solution
+  "json.schemaDownload.enable": false,
+
+  // workbench settings
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.colorTheme": "Gruvbox ish Dark Hard",
+  "workbench.iconTheme": "gruvbox-icon-theme",
+  "workbench.tips.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.editor.showTabs": "multiple",
+  "workbench.tree.indent": 4,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.navigationControl.enabled": false,
+  "workbench.statusBar.visible": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.panel.showLabels": false,
+  "workbench.editor.titleScrollbarVisibility": "hidden",
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.sideBar.location": "right",
+
+  // editor settings
+  "editor.fontFamily": "DankMono Nerd Font",
+  // "editor.fontSize": 18,
+  "editor.fontWeight": "700",
+  "editor.minimap.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.stickyScroll.enabled": false,
+  "editor.mouseWheelZoom": true,
+  "editor.wordWrap": "on",
+  // functions folding disable
+  "editor.folding": false,
+
+  // hiding the scrollbar
+  // "editor.scrollbar.vertical": "hidden",
+  // "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.verticalScrollbarSize": 5,
+  "editor.scrollbar.horizontalScrollbarSize": 5,
+
+  "editor.linkedEditing": true,
+  "editor.overviewRulerBorder": false,
+  "editor.renderLineHighlight": "none",
+  "editor.occurrencesHighlight": "off",
+
+  // terminal settings
+  // "terminal.integrated.fontSize": 14,
+
+  // others
+  "files.autoSave": "afterDelay",
+  "breadcrumbs.enabled": false,
+  "explorer.confirmDelete": false,
+  "window.menuBarVisibility": "compact",
+  "chat.disableAIFeatures": true,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  // git settings
+  "scm.diffDecorations": "none",
+  "git.decorations.enabled": true,
+  "gitlens.currentLine.enabled": false,
+
+  // automatic updating file name if rename or moved
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+
+  // "custom-ui-style.font.sansSerif": "my font",
+
+  "makefile.configureOnOpen": true,
+  "go.toolsManagement.autoUpdate": true,
+  "redhat.telemetry.enabled": true,
+  "eslint.debug": true,
+  "eslint.format.enable": true,
+
+  // disabling built-in validation
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
