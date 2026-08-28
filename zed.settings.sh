@@ -1,4 +1,5 @@
 {
+   "text_rendering_mode": "subpixel",
    "git_panel": {
       "dock": "left"
    },
@@ -9,29 +10,32 @@
       "button": false
    },
    "theme": "Gruvbox Material",
-   "icon_theme": "Bearded Icons",
-   "buffer_font_size": 18,
+   "icon_theme": "Zed (Default)",
+   "buffer_font_size": 16,
+   "ui_font_size": 14,
    "inline_code_actions": false,
    "tab_size": 3,
    "disable_ai": true,
    "terminal": {
-      "button": false,
-      "font_family": "Dank Mono",
+      "font_size": 15,
+      "font_family": "Monaspace Neon NF",
    },
    "tab_bar": {
       "show": false,
+      "show_tab_bar_buttons": false,
    },
    "tabs": {
       "git_status": true,
+      "file_icons": true,
    },
    "title_bar": {
-      "show_branch_name": false,
+      "show_branch_name": true,
       "show_project_items": true,
    },
-   "ui_font_family": "Dank Mono",
-   "buffer_font_family": "Dank Mono",
+   "ui_font_family": "Monaspace Neon NF",
+   "buffer_font_family": "DankMono Nerd Font",
    "buffer_line_height": {
-      "custom": 1.3,
+      "custom": 1.5,
    },
    "minimap": {
       "show": "always",
@@ -154,24 +158,22 @@
    },
    "theme_overrides": {
       "Gruvbox Material": {
-         "background": "#181818",
-         "toolbar.background": "#181818",
-         "border.variant": "#181818",
-         "border": "#181818",
-         "title_bar.background": "#181818",
-         "status_bar.background": "#181818",
-         "search.match_background": "#181818",
-         "panel.background": "#181818",
-         "panel.focused_border": "#181818",
-         "editor.background": "#181818",
-         "editor.gutter.background": "#181818",
-         "terminal.ansi.background": "#181818",
-         "terminal.background": "#181818",
-         "tab.active_background": "#181818",
-         "tab.inactive_background": "#181818",
-         "tab_bar.background": "#181818",
-
-
+         "background": "#171918",
+         "toolbar.background": "#171918",
+         "border.variant": "#222624",
+         "border": "#222624",
+         "title_bar.background": "#171918",
+         "status_bar.background": "#171918",
+         "search.match_background": "#171918",
+         "panel.background": "#171918",
+         "panel.focused_border": "#171918",
+         "editor.background": "#171918",
+         "editor.gutter.background": "#171918",
+         "terminal.background": "#1a1a1a",
+         "terminal.ansi.background": "#1a1a1a",
+         "tab.active_background": "#1a1a1a",
+         "tab.inactive_background": "#171918",
+         "tab_bar.background": "#171918",
          "players": [
             {
                "cursor": "#fff",
